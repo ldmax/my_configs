@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"path": "../Obsidian-Vault"
+		},
+		{
+			"path": "../mdm"
+		},
+		{
+			"path": "../mdm_remastered"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Solarized Dark",
+		"vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+		"vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+		// R setup
+		"[r]": {
+			"editor.defaultFormatter": "Ikuyadeu.r"
+		},
+		"files.associations": { // required
+			"*.rmd": "markdown",
+			"*.Rmd": "rmd"
+		},
+		"r.sessionWatcher": true, // default
+		"r.bracketedPaste": true, // required
+		"r.rterm.windows": "C:/Users/M310131/Software/Anaconda/Scripts/radian.exe", // for Radian
+		"r.rpath.windows": "C:/Users/M310131/Software/R-4.1.2/bin/R.exe",
+		"r.lsp.enabled": true,
+		"r.lsp.debug": true, // required
+		"r.alwaysUseActiveTerminal": true, // required
+		"r.rtermSendDelay": 0,
+		"r.lsp.diagnostics": true,
+		"r.rterm.option":[
+			"--r-binary=C:/Users/M310131/Software/R-4.1.2/bin/R.exe"
+		],
+
+		// git setup
+	    "git.autofetch": true,
+		"git.confirmSync": false,
+    	
+		// python setup
+		"python.defaultInterpreterPath": "C:/Users/M310131/Software/Anaconda/python.exe",
+    	"python.linting.enabled": false,
+    	"python.testing.promptToConfigure": false,
+		"python.formatting.provider": "black",
+		"python.languageServer": "Pylance",
+		"python.linting.pylintEnabled": false,
+		"python.linting.flake8Enabled": true,
+		"python.linting.flake8Args": [
+			"--max-line-length=88"  // Match what black does.
+		],
+		"[python]": {
+			"editor.formatOnSave": true
+		}
+	}
+}
