@@ -31,7 +31,7 @@
 		"git.confirmSync": false,
     	
 		// python setup
-		"python.defaultInterpreterPath": "usr/bin/python",
+		"python.defaultInterpreterPath": "/usr/bin/python",
     	"python.linting.enabled": false,
     	"python.testing.promptToConfigure": false,
 		"python.formatting.provider": "black",
