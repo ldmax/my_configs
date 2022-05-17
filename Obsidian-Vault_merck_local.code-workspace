@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "../mdm_remastered"
+		},
+		{
+			"path": "../arsenal"
+		},
+		{
+			"path": "../epidemiology"
 		}
 	],
 	"settings": {
@@ -16,7 +22,7 @@
 		"vscodeMarkdownNotes.slugifyMethod": "github-slugger",
 		// R setup
 		"[r]": {
-			"editor.defaultFormatter": "Ikuyadeu.r"
+			"editor.defaultFormatter": "REditorSupport.r"
 		},
 		"files.associations": { // required
 			"*.rmd": "markdown",
